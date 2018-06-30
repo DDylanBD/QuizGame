@@ -47,7 +47,7 @@
                     android:id="@+id/edtUser"
                     android:hint="User Name"
                     android:textSize="34dp"
-                    android:text="Dylan"
+                    android:text=""
                     android:textColorHint="@color/colorPrimary"
                     android:textColor="@color/colorPrimary"
                     android:layout_width="match_parent"
@@ -60,7 +60,7 @@
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edtPassword"
                     android:hint="Password"
-                    android:text="8089076304"
+                    android:text=""
                     android:textColorHint="@color/colorPrimary"
                     android:textColor="@color/colorPrimary"
                     android:textSize="34dp"
