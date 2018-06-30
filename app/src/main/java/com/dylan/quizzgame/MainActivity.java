@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
         registerAlarm();
 
 
-        image_gif = (ImageView)findViewById(R.id.image_gif);
+        //image_gif = (ImageView)findViewById(R.id.image_gif);
 
-        Glide.with(this).load("https://graphiste.com/blog/wp-content/uploads/2017/05/logo-anime-10.gif").into(image_gif);
+        //Glide.with(this).load("https://graphiste.com/blog/wp-content/uploads/2017/05/logo-anime-10.gif").into(image_gif);
 
         //Init Firebase
 
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void signIn(final String user, final String pwd) {
         final ProgressDialog mDialog = new ProgressDialog(MainActivity.this);
-        mDialog.setMessage("Please waiting....");
+        mDialog.setMessage("Patienter....");
         mDialog.show();
 
         users.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -112,17 +112,17 @@ public class MainActivity extends AppCompatActivity {
                             finish();
                         }
                         else
-                            Toast.makeText(MainActivity.this, "Wrong password", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "Mauvais mot de passe", Toast.LENGTH_SHORT).show();
                     }
                     else
                     {
-                        Toast.makeText(MainActivity.this, "Please enter your user name", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "S'il vous plaît entrez votre nom d'utilisateur", Toast.LENGTH_SHORT).show();
                     }
                 }
                 else
                 {
                     mDialog.dismiss();
-                    Toast.makeText(MainActivity.this, "User is not exists ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "L'utilisateur n'existe pas ", Toast.LENGTH_SHORT).show();
                 }
             }
 
