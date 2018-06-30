@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1060320600749",
+    "firebase_url": "https://quizzgame-c22cc.firebaseio.com",
+    "project_id": "quizzgame-c22cc",
+    "storage_bucket": "quizzgame-c22cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060320600749:android:a2eedabc21b55315",
+        "android_client_info": {
+          "package_name": "com.dylan.quizzgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060320600749-79kn72g4p4m1nfhjo8b3ep7pp4u1jsrr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dylan.quizzgame",
+            "certificate_hash": "c84ccc7529393b95c1ad9eebf0a17524241e081a"
+          }
+        },
+        {
+          "client_id": "1060320600749-gp1n2a724t7beojt6u22iuu6bvn5nfd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2oEs6P--OHHAKu9elGGBjQ7mpwIgGgpg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060320600749-gp1n2a724t7beojt6u22iuu6bvn5nfd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
